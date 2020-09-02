@@ -1,0 +1,384 @@
+/**{
+    outline: 1px dashed green;
+}*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    background-image: url(Slike/nesastavljene.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+header {
+    background-color: rgb(105, 103, 103) ;
+    position: relative;
+    height: 120px;
+}
+
+
+#logo{
+    height: 140px;
+    width: 200px;
+    padding: 20px;
+    position: absolute;
+}
+
+#facebook{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+#instagram{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    top: 45px;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    position: absolute;
+    left: 500px;
+    bottom: 20px;
+    
+}
+header li{
+    display: inline;
+    font-size: 20px;
+    border: 5px ridge rgb(138, 175, 138);
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(29, 26, 26)
+     
+}
+
+header li:hover{
+   /* color: rgb(216, 159, 216);*/
+   background-color:rgb(190, 182, 182);
+   cursor: pointer;
+}
+
+header li :visited{
+    color: rgb(53, 51, 51);
+}
+
+
+/*main{
+    padding: 0px;
+}*/
+
+.pocetna{
+   background-image: url(Slike/Siva.jpg);
+   height:700px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   background-position: 0px -250px;
+   
+}
+
+.naslov{
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    background-color: rgb(105, 103, 103);
+    margin-block-start: 0px;
+    margin-block-end: 0px;   
+    padding-top: 100px;
+    opacity: 0.9;
+    margin-left: 100px;
+    
+}
+
+.naslov h1{
+   /* margin-block-start: 0px;
+    margin-block-end: 0px;*/ 
+    font-size: 80px;
+    text-shadow: 2px 2px 2px;
+    color: rgb(216, 159, 216);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+/*.opis{
+    width: 400px;
+    position: absolute;
+    padding: 20px;
+    margin-left: 70%;
+    margin-top: 0%;
+    font-size: 25px;
+    background-color: rgb(105, 103, 103);
+    color: white;
+ }*/
+
+ 
+.naslov p{
+    font-weight: bold;
+    text-align: center;
+    color:  #42f5bc;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*.opis li{
+    font-weight: bold;
+}*/
+
+#mi{
+    background-color:white;
+    color:rgb(48, 45, 45);
+    position: relative;
+    height: 720px;
+    padding: 20px;   
+}
+
+.biografija{
+    position: absolute;
+    width: 700px;
+    height: 680px;
+    margin-left: 80px;
+    background-color:  rgb(138, 175, 138);
+   padding: 0px 20px 20px 20px;
+}
+
+.biografija h1{
+    font-size: 40px;
+    text-shadow: 1px 1px 1px;
+    color: rgb(32, 32, 32);
+    /*text-decoration: underline;*/
+}
+
+.biografija p{
+    text-indent: 30px;
+    font-size: 20px;
+}
+
+/*.slike1{
+    position: absolute;
+    margin-left: 50%;
+}*/
+
+
+.prva{
+    position: absolute;
+    margin-left: 60%;
+   /* margin-top: 3%;*/
+    border: 3px solid  rgb(138, 175, 138);
+    
+
+}
+.druga{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 25%;
+    border: 3px solid  rgb(138, 175, 138);
+}
+
+#mi a{
+    position: fixed;
+    right: 20px;
+    top: 50%;
+}
+
+#mi #strelica{
+    opacity: 0.5;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#proizvodi {
+    background-color:rgb(105, 103, 103);    
+}
+
+#proizvodi1 ul{
+    margin-left: 50px;
+}
+
+#proizvodi2 ul{
+    margin-left: 50px;
+}
+
+#proizvodi1 li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
+
+#proizvodi2 li{
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+}
+
+#proizvodi h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 120px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-shadow: 1px 1px 1px;
+    color: rgb(32, 32, 32);
+}
+
+#proizvodi1 :hover{
+    transform: scale(1.1);
+    border: 1px solid gray;
+    -webkit-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+}
+
+#proizvodi2 :hover{
+    transform: scale(1.1);
+    border: 1px solid gray;
+    -webkit-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+}
+
+#proizvodi1,#proizvodi2 {
+    padding-left: 170px ;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+#proizvodi1 .slike,
+#proizvodi2 .slike{
+    border-radius: 10px;   
+}
+
+#forma{
+   /* background-color: white;*/
+   /* padding-top: 100px;*/
+    height: 610px;
+    position: relative;  
+}
+
+#forma form{
+   width: 400px;
+   margin: auto;
+   /* border: solid 2px  rgb(105, 103, 103);*/
+   /* border-radius: 20px;*/
+   
+    display: block;
+    background-color:rgb(105, 103, 103);
+    opacity: 0.9;
+    padding: 10px;
+    position: absolute;
+    margin-left: 567px ;
+   /* margin-top:0px ;*/
+    height: 610px;  
+}
+
+#forma label{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+#forma input, #forma textarea{
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid rgb(180,180,180);
+    background-color: white;
+}
+
+#forma textarea{
+    height: 200px;
+}
+
+#forma button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(138, 175, 138);
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: 1px solid rgb(30, 56, 30);
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#forma button:hover {
+    cursor: pointer;
+    background-color: rgb(25, 80, 25);
+}
+
+footer{
+    background-color:  rgb(105, 103, 103);
+    margin-inline-start: 0px;
+    padding: 5px;   
+}
+
+footer li{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+
+
+/*.mySlides {display:none;}*/
+
+
+
+/*
+div ul{
+    margin-left: 50px;
+}
+div li{
+    display: inline;
+    padding: 20px;
+}
+div :hover{
+    transform: scale(1.1);
+    border: 1px solid gray;
+    -webkit-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 7px 9px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+div{
+    background-color: pink;
+}*/
+
+
+
+/*div h1{
+    padding: 20px 20px ;
+}*/
+
+
+
+
+
+
+
+
+ 
+
